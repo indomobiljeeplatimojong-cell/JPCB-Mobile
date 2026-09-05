@@ -3,7 +3,7 @@ name: Build JPCB Mobile APK
 on:
   push:
     branches:
-      - utama
+      - main
   workflow_dispatch:
 
 jobs:
