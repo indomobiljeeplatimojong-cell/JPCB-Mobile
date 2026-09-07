@@ -1,0 +1,29 @@
+JPCB MOBILE - PANDUAN UPLOAD
+
+PENTING:
+JANGAN upload 9 file datar lama satu per satu ke root repository.
+Project harus mempertahankan struktur folder seperti ZIP ini.
+
+CARA PALING AMAN DARI PC:
+1. Extract ZIP ini.
+2. Buka GitHub repository JPCB-Mobile.
+3. Jika repository masih berisi project lama, hapus isi project lama dari repository atau gunakan repository kosong.
+4. Upload seluruh ISI folder project dengan struktur folder tetap.
+5. Pastikan file berikut ada:
+   - build.gradle.kts
+   - settings.gradle.kts
+   - gradle.properties
+   - app/build.gradle.kts
+   - app/src/main/AndroidManifest.xml
+   - app/src/main/java/com/jpcb/mobile/MainActivity.java
+   - app/src/main/res/values/strings.xml
+   - app/src/main/res/values/styles.xml
+   - .github/workflows/build-apk.yml
+6. Commit langsung ke branch main.
+7. Buka Actions.
+8. Pilih "Build JPCB Mobile APK".
+9. Tunggu sampai hijau/Success.
+10. Buka hasil run → Artifacts → JPCB-Mobile-debug.
+
+CATATAN:
+ZIP ini bukan file yang di-upload sebagai ZIP ke GitHub. ZIP hanya paket project agar struktur folder tidak salah.
